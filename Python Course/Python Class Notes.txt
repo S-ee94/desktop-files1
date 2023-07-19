@@ -1,0 +1,22 @@
+Trainer - Bhavana
+Python Weekday BC = 2113072007
+
+Live classes link - https://us02web.zoom.us/webinar/register/WN_yVSp0-I3QQ6qac41m_jd1Q
+
+G drive link - 
+
+Jupyter notebook link : http://localhost:8888/tree
+
+Shift+Tab gives the details of a function in jupyter notebook
+
+Correlation ranges between -1 to +1
+Good correlation is >=0.6
+
+
+merge - used to combine 2 or more dataframes based on common items
+concatenate - appends the data from one to another 
+
+Path - C:\Seema Python CSV\mtcars.csv
+
+
+Python Weekday BC = 2113072007 - batch name

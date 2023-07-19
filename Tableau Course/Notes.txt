@@ -1,0 +1,25 @@
+Tableau
+
+Trainer Leela
+
+Live classes link - https://us02web.zoom.us/webinar/register/WN_vDCjCAQhTDuFn2pr2GxTyA
+
+tableau desktop download  - https://www.tableau.com/products/desktop/download - 
+- use the intellipaat email id - seemaiyengar1994@gmail.com - 28th sept 2021 - trial start date 
+14 days trial - ends on 11th oct 2021 
+
+https://www.tableau.com/products/all-features - release notes 
+
+Ask Questions - 
+
+
+
+Interview q's
+
+By default dimensions are discrete and measures are continuous
+
+tableau version - 8.1 -> 2021.3 
+
+
+
+

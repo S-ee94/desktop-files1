@@ -1,0 +1,102 @@
+Mongo DB Course
+
+RDBMS(Traditional DB) Relational Database uses notion of databases separated into tables where each column represents a field and each row represents a record.
+example: Microsoft Excel, Microsoft access 
+
+Tables can be related with each other with the use of Foreign keys(Common columns)
+
+Normalization
+
+1NF - No repeating elements or group of elements
+2NF - No partial dependencies on a concatenated key
+3NF - No dependencies on non-key attributes
+
+ACID Properties - Atomicity, Consistency, Isolation , Durability
+
+Atomicity - either all parts of db has to be completed or none
+Consistency - integrity of db in preserving all transactions 
+Isolation - When a transaction must be run isolated in order to gurantee that any inconsistency does not effect other transactions
+Drability - when the changes made by a completed transaction must be preserved in that particular db
+
+Limitations of RDBMS
+1) Scalability - Scale - up , single server with 8GB RAM scaling it up to 32 GB RAM, when you cannot upgrade that is a limitation and distributed computing, 
+for 1000 servers etc, maintenance becomes difficult
+2) Data Complexity - unstructured data like music files, images,xml,emails,videos,likes of fb, etc when these increase complexity of data becomes more in RDBMS
+3) Broken Keys - bcoz of 1st 2 issues there are key issues
+4) Define schema before load - schema has to be defined in RDBMS
+
+NO SQL DB - Non Traditional DB (Also known as Not Only SQL)
+
+SQL No SQL differences
+SQL                                                                            No SQL
+1) SQL DBs are table based (rows,columns)                        No SQL DB's are graph,key value pairs,document,column stores based etc
+2) Vertically Scalable                                           Horizontally Scalable
+3) SQL DB's use SQL language
+Structured Query Language for defining and manipulating data     Queries are focused on collection of documents
+4) SQL,MYSQL,Oracle etc                                          MongoDB,Redis,Cassandra,HBase,Neo4J
+5) For Complex queries it is useful                              For Complex queries it is not so useful 
+
+
+NO SQL Advantages
+1) Non-Relational / Distributed DB's 
+2) No Schema Required
+3) Auto Elasticity
+4) Integrated Caching
+5) Simpler Data Model
+
+Volume,Variety,Velocity,Value,Veracity - characteristics of No SQL
+
+4 main characteristics of No SQL
+1) Data increases continuously 
+2) Data is both structured/unstructured
+3) Difficult to analyze with a certain tolerable time limit 
+
+No SQL - Document based DB - they allow deep nesting,document within a doc withing doc and so on - example: Mongo DB
+       - Key/Value - word-meaning(s) used for quickly storing basic info which are done after performing CPU computation - example: Mongo DBRedis,MemcacheD
+       - Column  - bigtable,dynamo db - example:Cassandra, HBase
+       - Graph -  different operational modes,java graph based,used for handling complex info - example:OrientDB, Neo4J
+
+Radical Difference: It allows you to store related items in one row in the same table, this row is not same as RDBMS
+
+Lack of Scalability in RDBMS for OLTP Applications/or any with lot of writes.
+
+Data Integrity at all levels.
+-------------------------------------------------------------------------------------------
+
+Differences
+
+RDBMS                                                                        Mongo DB 
+1) normal db                                                             Document based
+2) tables                                                                Collections
+3) records/rows                                                          documents/objects
+4) column/attribute                                                      field
+5) Join                                                                  Embed/Link Documents
+
+---------------------------------------------------------------------------------------------
+
+A single instance of Mongo DB can hold multiple dbs
+Every document has a special key "_id"  -> unique to collection
+java script shell
+mongochef
+
+Document - key and associated value
+
+example: ("MFD": "Welcome to this course")
+          Key        Value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

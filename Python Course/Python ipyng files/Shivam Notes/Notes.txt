@@ -1,0 +1,66 @@
+https://colab.research.google.com/drive/1NmmsZo2gDexhHvNSNrR1pBYFD2AGABhb?usp=sharing - Colab link 
+
+
+Slack channel link - https://app.slack.com/client/TBGFNA1LH/C02AGG80S7Q
+
+seaborn - randomly takes the field inputs - is better than matplotlib
+
+matplotlib - you need to specify 
+
+10th Aug 2021- https://colab.research.google.com/drive/1NmmsZo2gDexhHvNSNrR1pBYFD2AGABhb?usp=sharing
+
+11th Aug 2021- https://colab.research.google.com/drive/1Y58EqyRE6Uv_8aLYr01eqxaSnXez1tEv?usp=sharing
+
+12th Aug 2021 - https://colab.research.google.com/drive/1UJ2nkbosfrnLR35fmuMKb1utuHo8xLoR?usp=sharing
+
+13th Aug 2021 - https://colab.research.google.com/drive/1UEywpkR33hGKDZog8wXHRfVxLrmMJIFj?usp=sharing
+
+18th Aug 2021 - https://colab.research.google.com/drive/1TOiF3MQzMUHO00VknKfOO_xjMnvGkVbI?usp=sharing
+
+19th Aug 2021 - https://colab.research.google.com/drive/1htREox2GdrUQBrGuqp1dBaHbXKhnLDs_?usp=sharing
+
+20th Aug 2021 - https://colab.research.google.com/drive/19W-tvG0iu4Vs5JeC584wMc15sJ77Pe29?usp=sharing
+
+24th Aug 2021 - https://colab.research.google.com/drive/1ikqfUG2P-V6oU6JrgY6R4A8zdHr0HFZ3?usp=sharing
+
+25th Aug 2021 - https://colab.research.google.com/drive/1ulYL3KvD8kgcvxVkh2FNT9s6Xk5zeFPI?usp=sharing
+
+26th Aug 2021 - https://colab.research.google.com/drive/1BoNG57xncI8lvWEOH6jTvjYEIaXF7uBU?usp=sharing
+
+27th Aug 2021 - https://colab.research.google.com/drive/1yemPeP5RMNjPkSnSMeAlzqasrQBJqYNX?usp=sharing
+
+31st Aug 2021 - https://colab.research.google.com/drive/13I0dOECtkaEK-M7oevaHXXHjm9dpPDcC?usp=sharing
+
+1st Sept 2021 - https://colab.research.google.com/drive/1d-zjJ3FeiyepMWuYMy5yFGyZ6TTXGF_D?usp=sharing
+
+2nd Sept 2021 - https://colab.research.google.com/drive/16E27JwLisscUY2DBhxaIDdaLo7ucPLzM?usp=sharing
+
+3rd Sept 2021 - https://colab.research.google.com/drive/1xdoRFp-MKxsNlkufE5yJUdtDoY_wrf-V?usp=sharing
+
+7th Sept 2021 - https://colab.research.google.com/drive/1UO6Y1UM2ieKGFwEt0ndpN4T3jCP9jaJH?usp=sharing
+
+8th Sept 2021 - https://colab.research.google.com/drive/1P7lRaq3kFiexB-9sL-iC1H6y4tqNmBtg?usp=sharing
+
+
+KDE - Kernel Density Estimation 
+
+enumerate - index coming out of it 
+
+House Price Regression - try this - kaggle
+
+House Price Regression - https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

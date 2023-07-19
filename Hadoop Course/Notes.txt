@@ -1,0 +1,426 @@
+hadoop course
+
+
+live classes link - https://us02web.zoom.us/webinar/register/WN_0or-KgH9Toqg6YJET7p_ng
+
+hadoop g-drive link -    https://drive.google.com/drive/folders/1rZw8n0bmko7A_oMsZR0M2xWd3dCtm0N-
+
+Hadoop all files and codes g drive link - https://drive.google.com/drive/folders/14om_1Xfo5kILDdlPeAbBHvLy5kmo9iNf
+
+virtual machine download link - https://www.virtualbox.org/wiki/Downloads - after this download all 4 files of g-drive 
+
+open the virtual box and install it 
+
+open the virtual machine hadoop one - hadoopvm - it opens the virtual box manager - from this we can open the virtual machine
+
+import virtual appliance - import it 
+
+
+after import - open ubuntu
+
+pwd - hadoop -  open hadoop one
+
+to transfer between os, in ubuntu goto devices and drag n drop, change the disables to bidirectional
+
+
+Linux Basics - 
+
+* mkdir -> ls -> pwd -> cd
+
+* touch -> create files
+* cat -> viewing the contennt of a file or to create a file -> editor cat > filename and ctrlc to exit
+* nano - > editor - ctrlX to exit
+* vi editor-> vi filename-> press i to insert->  esc:wq to exit
+
+*del files -> to delete empty directory - rmdir <dir name>
+* to del a file -> rm <filename> 
+* to del any dir -> rm -rf <dir name>
+
+* copy - cp <filename> destinationpath 
+
+*root user - sudo su
+* to update a machine -> apt-get update
+* sudo apt-get update - to update and install packages
+* sudo apt-get install tree -> to install the tree package
+* tree command gives the whole tree structure 
+
+* sudo apt-get install open-jdk-11-jdk -y -> for installing java package
+
+* tree filename -> specifies the directories and tree structure 
+
+-------------------------------------------------------------------------------
+LINUX ADVANCED
+
+* installing a web server
+* launch a simple html website page
+* list of packages installed
+* grep command
+* ps command
+* pipeline symbol (|) & join 2 commands, ex:- ps | grep 
+* which command
+* man command
+* alias - used for renaming a command
+* permissions - chmod
+* demo: try to get inside another virtual machine (vm) 
+
+
+* installing a web server
+sudo apt-get update && sudo apt-get install apache2 -y
+service apache2 status
+
+*list of packages installed 
+dpkg --list 
+
+* grep command - used to search for strings - case sensitive
+ex:- sudo nano doc.txt
+hi all 
+Hi All
+hI aLL
+
+grep "hi" doc.txt
+o/p -> hi all
+
+grep "h" doc.txt
+o/p -> hi all
+       hI aLL
+
+to make grep case insensitive
+grep -i "h" doc.txt
+o/p-> hi all 
+      Hi All
+      hI aLL
+
+dpkg --list | grep "apache2"
+o/p->  apache 2 server details
+
+* to uninstall apache 2 package -> sudo apt-get purge apache2 -y
+
+* ps Command - process
+
+ps -e | grep "watch"
+o/p -> details of watchdog 
+
+ps -e | grep -in "watchdog"
+o/p -> all matched appear
+
+* which command -> used to get the path/location and to get confirmation on software/packages installed
+which tree
+which openjdk-11-jdk
+
+* man command -> gives all info about any of package
+man tree 
+
+* alias command -> used for renaming a command 
+temporary change
+service apache2 status
+
+instead of this we can write as alias astatus='service apache2 status'
+                                      astatus
+
+likewise ->  alias astop = 'service apache2 astop'
+                   astop
+
+
+for permanent alias change
+command -> sudo nano .bashrc 
+alias astart='sudo service apache2 start'
+alias astop='sudo service apache2 stop'
+alias astatus='sudo service apache2 status'
+
+write this code in update lines and values 
+
+source .bashrc 
+astop
+astatus
+astart
+astatus
+
+* permissions - chmod
+first character -
+files -> permissions start with hypen(-)
+directories -> permissions start with d
+
+2nd three -> user
+
+3rd three -> group
+
+last three -> other 
+
+read-> r -> 4
+write-> w -> 2
+execute-> x -> 1
+
+rxw are permissions
+
+command->
+
+chmod 700 4.py - read access
+chmod 300 4.py - write and execute access
+
+ls -lrt to check the permissions 
+
+* demo: try to get inside another virtual machine (vm) 
+
+cd .ssh
+ssh-keygen
+cat id_rsa.pub
+copy it and move to other machine & paster it on machine 2
+
+On machine 2: 
+
+cd .ssh
+sudo nano authorized_keys
+paste it there
+sudo su
+cd
+cd .ssh
+sudo nano authorized_keys
+paste it there
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Trainer Sandeep 
+
+Data -> Structured - Tabular form,                  Unstructured(non tabular form),                      Semi-Structured - key,value,name(type of data is not specified)
+            Business Data                           more than 70% Social Media                                
+
+BigData -> Collection of Complex Data        
+
+Batch analytics - one time job , (Real Time) Streaming analytics - Stock Market
+ex: Retail,Banking,Telecom                ex:  Stockmarket,sensors-> Traffic System, Live Cargo Arrival Tracking, Live Sports 
+
+Hadoop -> Cluster mechanism-> by creating clusters we store large amount of data in a DFS (distributed file system) way    
+
+hadoop uses flat file system hence, any data can be stored in any amounts
+
+in clusters, more nodes can be added during run time and capacity can be increased - horizontal scalability feature
+
+hadoop is ELT framework - extracting, loading and transformation
+
+hadoop features - > 1) Scalability - any amt of data can be stored
+                    2) Flexibility - any type of data can be stored
+                    3) High Speed Processing - bcoz of dfs approach
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+HDFS -> master-slave architecture -> storing both raw and processed data 
+
+Namenode-> master node 
+
+sqoop tool is used to pull any structured data from sql to client servers with jdbc drivers
+
+Data node -> slave node 
+
+flume-> data ingestion tool
+
+map reduce -> can use any coding language ex: java
+
+Yarn -> resource management 
+
+pig scripting -> logical plan 
+
+kafka -> for real time storage 
+
+HBASE -> no sql db 
+
+ambari-> data management tool
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Name node -> master node
+
+Data node -> slave node
+
+SATA Port 0: C:\Users\seema\VirtualBox VMs\ubuntu 1\hadoopvm-disk002.vdi
+
+C:\Users\seema\VirtualBox VMs\ubuntu 1\\hadoopvm-disk002
+
+root path -> /home/hadoop
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+hadoop fs -put filename
+
+hadoop fsck /user/hadoop/intel2/NYSE.csv-files-blocks-locations
+
+Hadoop VM Ip - 10.0.2.15
+
+
+COMMANDS->
+start-all.sh -> starts all services 
+
+which jps -> to find the jps -> path obtained is /usr/bin/jps
+sudo /usr/bin/jps -> it will ask for hadoop pwd and enter the pwd-
+
+pwd -> we get /home/hadoop
+
+hadoop fs -> gives the hadoop file system 
+
+hadoop fs -ls /   -> you can see the folder
+
+ls / -> local root
+
+we can access name node through browser 
+
+NN(namenode)-localhost or IP 127.0.0.1   -> type localhost:9870 on browser to get the namenode
+
+hdfs dfs -ls
+
+lsb_release -a -> to get the OS details 
+
+java -version -> to check java version details
+
+hadoop fs -mkdir /user/training/intel ->  to create a new directory in /user/training -> verify in firefox 
+
+nano file1.txt -> ctrlx to save then Y then enter
+cat file1.txt to check
+
+hadoop fs -put file1.txt /user/training/intel
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+configuration files
+1)core-default.xml
+2)hdfs-default.xml
+3)mapred-default.xml
+
+hdfs-site.xml
+
+hadoop fs -put pfizer.csv intel
+
+hadoop fsck /user/training/intel/pfizer.csv -files -blocks -locations
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+APACHE HIVE -> trainer raghu raman 
+
+-> HIVE is a dataware house platform built on top of Hadoop
+
+-> Datawarehouse is a storage place where we query the data using sql to extract the structured tabular data
+
+-> HIVE allows to use SQL on top of hadoop 
+
+-> HIVE allows us to create tables and connect data with HDFS. Once, you write sql on these tables, hive will convert your queries into mapreduce jobs 
+
+-> hive translates sql queries to map reduce jobs
+
+-> HIVE queries are slow 
+
+-> HIVE stores all the metadata about the tables in an RDBMS using a service called metastore
+
+-> there are 2 tables in HIVE. managed tables and external tables 
+
+-> managed tables - by default any table created is a managed table, on drop command everything will be deleted
+   external tables - keyword external is used. on drop command, table is dropped, but data remains the same.
+                     if data is outside hadoop, external table is used. 
+-> A SerDe stands for - Serializer/Deserializer. It is a library that allows us to parse the data and convert it to structured format.
+
+-> APACHE TEZ -> is an execution engine like mapreduce but more faster than map reduce.
+
+* Partitioning in HIVE
+-> Static
+-> Dynamic
+
+-> Special Joins in HIVE 
+-> Imapala 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PIG ->
+
+pig theory details - cloudera cdp pig 
+----------------------------------------------------------------------------
+
+APACHE SQOOP -> 
+
+https://sqoop.apache.org -> official site 
+
+Sqoop is a data transfer tool
+
+It helps you to transfer data from RDBMS to hadoop 
+
+to practice sqoop -> first execute mysql commands of gdrive and then execute sqoop commands
+
+also for more info -> search in google -> sqoop user guide 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
