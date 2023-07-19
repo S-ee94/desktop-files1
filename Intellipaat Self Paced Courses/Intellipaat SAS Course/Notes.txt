@@ -1,0 +1,84 @@
+SAS Course
+
+Email Id: seemaiyengar1994@gmail.com
+SAS PWD :  Crazyseems94$
+
+Tools - SAS Studio / University Edition / SAS Enterprise Guide
+
+  SAS        |   Excel
+Dataset      |   Table
+Variables    |   Colums
+Observations |   Rows
+
+Metadata (Descriptor Portion) -> information about the data (data about data)
+
+SAS - 8 bytes memory - for 1 width(numerical)
+      1 Byte memory - for 1 width(character)
+
+
+Libraries in SAS - Temporary and Permanent
+
+Temporary -> assigned by SAS and nickname is work -> referencing work.dataset or dataset(default), scope is only till the time session is open 
+
+Permanent -> 1) SAS Defined-> SAS HELP 
+             2) User Defined -> Libname
+
+SAS has 2 steps-> 1)Data Step -> always starts with a keyword data <o/p of stmts> run; -> it helps in 1st 2 steps of analytical life cycle 
+                  2)PROC Stepv -> procedure algorithms -> < name of procedure> data= stmts run;
+
+------------------------------------------------------------------------------
+           
+CODE ->type this ->code- 12cd4352-570f-4c6c-9a4e-453f44f81 
+SAS Studio - path 
+my_shared_file_links -> erchetanchawla() -> intellipaat code
+
+
+-------------------------------------------------------------------------------
+
+Reading from externam flat file(.txt/.csv/.dat)
+
+Infile-> path of the file to be read/file reference
+Input-> variables where the corresponding data will go 
+
+whenever the data error occurs, the variables get populated with missing values.
+in SAS, numeric missing value is represented as .(dot)
+------- character  -----------same---------- as blank space
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+        

@@ -1,0 +1,186 @@
+John Deere -> deeksha company
+-----------------------------------------------------
+CloudyML Course -> Details
+
+Course Portal URL: courses.cloudyml.com
+
+Username : seemaiyengar1994@gmail.com
+
+Password : ai4all
+
+---------------------------------------------------------------
+
+
+R Programming Course
+
+Assigments/ case studies 
+Module 4 - all done
+
+Python beginner course - https://www.techlearn.live/course/learn-python-programming-for-beginners
+
+
+interview preparation
+
+data scientist -> ML tools, clustering, neural networks 
+programming languages -> python, R, SQL, SAS, JAVA
+Frameworks-> Pig, SPark,Hadoop
+Technologies-> ML,deep learning
+Salary -> $ 137000 - RS 1.3 crores  per annum
+Companies->  CITY BANK, amazon,fb, schneider, intel, S&P global, moody's
+--------------------------------------------------------------------------------------
+data analyst-> entry level -> R,python,excel, data handling,modelling.
+programming languages -> python, R, SQL, SAS, JAVASCRIPT
+Tools->  SAS Miner, Microsoft Excel, SSAS, SSPS
+Salary -> $ 67000 - RS 50 lakhs  per annum
+Companies-> Infy,oracle,visa,credit suisse, capitalone, walmart, [24]7.ai
+-----------------------------------------------------------------------------------------
+data engineer-> develop, construct, maintain architecture, big data 
+programming languages -> python, R, SQL, SAS, JAVA
+Frameworks-> MapReduce,HIVE,Pig, Apache Spark,Hadoop, Data Streaming, No SQL
+Salary -> $ 116000 - RS 88 lakhs  per annum
+Companies-> google,cisco,cognizant,apple,spotify,microsoft,verisk,AT&T, flowcast
+---------------------------------------------------------------------------------------------------------------------------------
+
+Interview Q's
+https://youtu.be/5JZsSNLXXuE 
+
+
+Credentials for IBM Certification
+Full Name : Seema B S
+Public name: Seema_BS
+email: seemaiyengar1994@gmail.com
+pwd: Crazyseems94$
+
+https://courses.learn.intellipaat.com/dashboard - IBM courses 
+
+IBM Certification -> 
+
+R programming - done
+Python - done
+spark - done
+tensor flow -redo
+chatbot - done 
+IBM cloud - email id - seemaiyengar1994@gmail.com
+            PWD - Crazyseema1994$
+
+ticket no: 564700  - https://support.learn.intellipaat.com/
+
+
+Udemy Courses ->
+
+Udemy-
+Email Id: seemaiyengar1994@gmail.com
+Password: Crazyseema1994$
+
+CC -> KEEPLEARNING
+
+SQL COURSES->
+
+* 70-461 - transact SQL
+* complete sql bootcamp 2020: go from zero to hero 
+* DQL - MYSQL for data analytics and  business intelligence 
+
+Power BI-
+* Power BI A-Z : Hands on Power BI Training for Data Science 
+
+Tableau->
+* Building Interactive dashboards with tableau 
+
+Excel->
+* Microsoft Excel Advanced: The Data Analysis Tools you need 
+
+Python->
+* Python for Data Science and machine learning bootcamp 
+
+* Complete Python Scripting for Automation 
+
+* Automate the Boring Stuff with Python Programming 
+
+Statistics->
+* Statistics for Data Science and Business Analysis 
+
+* AWS Certified Data Analytics Specialty 2020 - hands on 
+
+
+
+Udemy courses for data analyst -
+
+Udemy Courses:
+Python for Data Analysis and Visualization - https://bit.ly/3hhX4LX
+
+Statistics for Data Science - https://bit.ly/37jqDbq
+
+SQL for Data Analysts (SSMS) - https://bit.ly/3fkqEij
+
+NLP - Natural Language Processing with Python - https://bit.ly/30w7iCB
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1) Resume Preparation - done
+2) R Programming Projects/interviews videos - done
+3) Python progreamming projects/interviews videos - done 
+4) Deeksha Trainer Interview Questions - done 
+5) sql interview questions - done
+6) tableau interview questions - done
+7) Resume Upload - naukri,shine,hirect - done
+
+Deeksha's notes - need to study 
+
+Data Science Job platforms -> cutshort, Small recruiters, BambooHR, Ladders, Jobvite, Apna 
+
+
+
+New to do list ----
+
+
+Complete DataScience R revision with project   - Module 1 -> Assignment 2 done 
+
+Complete Python with project
+
+Complete ML with project
+
+Complete AI with project
+
+Complete Power BI with project
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

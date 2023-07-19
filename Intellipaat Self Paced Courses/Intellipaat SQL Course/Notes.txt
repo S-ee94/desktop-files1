@@ -1,0 +1,8 @@
+Instance Name: sparta
+Instance ID: SPARTA
+SQL PWD ADMIN: Crazyseema1994$
+
+
+Server Name: LAPTOP-RBU7OHTP\SPARTA
+Login: sa
+Pwd: Crazyseema1994$
